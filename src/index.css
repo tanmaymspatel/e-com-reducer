@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-box{
+  @apply container mx-auto px-8 
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e5e7eb; /* Tailwind's gray-200 */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #6366f1; /* Tailwind's indigo-500 */
+  border-radius: 9999px; /* Makes it rounded */
+}
